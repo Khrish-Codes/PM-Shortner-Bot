@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '23830477'))
 API_HASH = environ.get('API_HASH', '19f8365d98fb11c9cd6c1eaa8b1fa4b8')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6165158823:AAFNGH15Vo1aioTIigKIDKvQpFtcmvWfspU")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6384094059:AAFZxthHH9PoStCy-Z4wpkYnezoEo5jtDKU")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -63,7 +63,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+vp-LqpC02tlkYWNl')
 TUTORIAL = environ.get('TUTORIAL', '0')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001859970921'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001961916260'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MHA_Discussion')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
