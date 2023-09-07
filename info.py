@@ -1,4 +1,4 @@
-import re
+    import re
 from os import environ
 from Script import script 
 
@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '23830477'))
 API_HASH = environ.get('API_HASH', '19f8365d98fb11c9cd6c1eaa8b1fa4b8')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6384094059:AAEP-skQImTzIv8pyKF21Mf4RQmW0Im1SSU")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6384094059:AAHvlr-5wtgzD8v5sbL83Jw92KGg03wr3jc")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -491,7 +491,7 @@ auth_channel = environ.get('AUTH_CHANNEL', '-1001629572693')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001939898194')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001806239141')
 reqst_channel = environ.get('REQST_CHANNEL_ID', '-1001591695738')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
@@ -513,13 +513,13 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "3030")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MHA_Chat_Hub')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MHA_Discussion')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/MOVIES_HUB_ALPHA_OFFICIAL')
 TUTORIAL = environ.get('TUTORIAL', '0')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001607412183'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MHA_Chat_Hub')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MHA_Discussion')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
